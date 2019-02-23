@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form method="post">
+	<p><strong>INFORMAÇÕES CADASTRAIS<strong/><p/>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="name" placeholder = 'Nome' size = '10' required>
+        <label for="sobrenome">Sobremone:</label>
+        <input type="text" id="sobrenome" placeholder = 'Sobremone' size = '30' required>
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="e-mail" placeholder = 'claudio@claudioflix.com' size = '40' required>
+    </div><br/><br/>
+    <div>
+        <label for="telefone">Telefone:</label>
+        <input type="telefone" id="telefone" placeholder = '(XX)XXXX-XXXX ou +XXXXXXXX-XXXX' size = '33' maxlength = '14'>
+        <label for="celular">Celular:</label>
+        <input type="celular" id="celular" placeholder = '(XX)XXXX-XXXX ou +XXXXXXXX-XXXX' size = '33' maxlength = '15' required>
+    </div><br/><br/>
+	<div>
+        <label for="endereco">Endereço:</label>
+        <input type="endereco" id="endereco" placeholder = 'Endereço' required>
+        <label for="complemento">Complemento:</label>
+        <input type="complemento" id="complemento" placeholder = 'Complemento'>
+    </div><br/><br/>
+	<div>
+        <label for="CEP">CEP:</label>
+        <input type="CEP" id="CEP" placeholder = 'XXXXX-XXX' size = '7' maxlength = '9' required>
+        <label for="estado">Estado:</label>
+        <select>
+			<option value="">Selecione</option>
+			<option value="AC">Acre</option>
+			<option value="AL">Alagoas</option>
+			<option value="AP">Amapá</option>
+			<option value="AM">Amazonas</option>
+			<option value="BA">Bahia</option>
+			<option value="CE">Ceará</option>
+			<option value="DF">Distrito Federal</option>
+			<option value="ES">Espirito Santo</option>
+			<option value="GO">Goiás</option>
+			<option value="MA">Maranhão</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="MT">Mato Grosso</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="PA">Pará</option>
+			<option value="PB">Paraíba</option>
+			<option value="PR">Paraná</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PI">Piauí</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RO">Rondônia</option>
+			<option value="RR">Roraima</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="SP">São Paulo</option>
+			<option value="SE">Sergipe</option>
+			<option value="TO">Tocantins</option>
+		</select>
+    </div><br/><br/>
+	<div>
+        <label for="cidade">Cidade:</label>
+        <input type="cidade" id="cidade" placeholder = 'Cidade' required>
+        <label for="pais">País:</label>
+        <input type="pais" id="pais" placeholder = 'País' required>
+    </div><br/><br/><br/>
+	<p><strong>INFORME SUAS CARACTERÍSCAS PARA RECOMENDARMOS MELHORES FILMES PARA VOCÊ<strong/><p/>
+		<div>
+        <label for="genero_filme">Gênero favorito:</label>
+        <select>
+			<option value="">Selecione</option>
+			<option value="acao">Ação</option>
+			<option value="animacao">Animação</option>
+			<option value="aventura">Aventura</option>
+			<option value="comedia">Comédia</option>
+			<option value="documentario">Documentário</option>
+			<option value="fantasia">Fantasia</option>
+			<option value="faroeste">Faroeste</option>
+			<option value="ficcao_cientifica">Ficção Científica</option>
+			<option value="guerra">Guerra</option>
+			<option value="musicais">Musicais</option>
+			<option value="romance">Romance</option>
+			<option value="suspense">Suspense</option>
+			<option value="terror">Terror</option>
+			<option value="drama">Drama</option>
+		</select>
+        <label for="duracao_filme">Duração de filme mais agradável:</label>
+        <select>
+			<option value="">Selecione</option>
+			<option value="90">Menos de 90 minutos</option>
+			<option value="90-120">Entre 90 e 120 minutos</option>
+			<option value="120-150">Entre 120 e 150 minutos</option>
+			<option value="150-180">Entre 150 e 180 minutos</option>
+			<option value="180">Mais de 180 minutos</option>
+		</select>
+    </div><br/><br/>
+		<div>
+        <label for="ator_fav">Ator Favorito:</label>
+        <input type="ator_fav" id="ator_fav" placeholder = 'Nome do Ator' >
+        <label for="atriz_fav">Atriz Favorita:</label>
+        <input type="atriz_fav" id="atriz_fav" placeholder = 'Nome da Atriz' >
+    </div><br/><br/>
+		<div>
+        <label for="diretor_fav">Diretor Favorito:</label>
+        <input type="diretor_fav" id="diretor_fav" placeholder = 'Nome do Diretor' >
+        <label for="dt_nasc">Sua data de nascimento:</label>
+        <input type="dt_nasc" id="dt_nasc" placeholder = 'DD-MM-AAAA' size = '9' maxlength = '10' required>
+    </div><br/><br/><br/>
+	<div>
+        <a href="higor3.html"><button type="button">Enviar</button>
+    </div><br/><br/><br/>
+    </form>
+  </body>
+</html>
